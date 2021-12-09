@@ -1,0 +1,54 @@
+/* Form */
+.input_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Add Form */
+.input_add {
+  background-color: rgb(243, 243, 243);
+  border-radius: 16px;
+  border: none;
+  padding: 14px 16px;
+  margin: 30px 20px;
+  outline: none;
+  width: 50%;
+}
+
+.add_button {
+  margin-left: 10px;
+  border-radius: 16px;
+  padding: 8px 10px;
+  border: none;
+}
+
+.add_button:hover {
+  cursor: pointer;
+  color: #0070f3;
+  background-color: #fafafa;
+  transition: all 0.3s ease-out;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.todo_checkbox {
+  margin-right: 10px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.todo_title {
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
+
+.todo_title_checked {
+  font-size: 16px;
+  color: gray;
+  overflow-wrap: break-word;
+}
